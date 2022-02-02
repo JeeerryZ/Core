@@ -1,0 +1,38 @@
+name: Core
+load: STARTUP
+description: Plugin mestre para servidor
+softdepend: [HologramAPI]
+load: POSTWORLD
+author: JerryZ
+version: 0.4
+main: me.jerryz.coreplugin.Core
+commands:
+    setspawn:
+        description: Configura o spawn.
+    spawn:
+        description: Teleporta para o spawn.
+    limpar:
+        description: Limpa os itens/animais/mobs do mundo.
+    admin:
+        description: Menu de admin.
+    money:
+        description: Mostra seu dinheiro atual.
+    moneytop:
+        description: Mostra os 3 players com mais dinheiro.
+    warn:
+        description: Avisa/Kicka/Bane um jogador.
+    setwarp:
+        description: Seta um warp em sua localização.
+    warps:
+        description: Abre o menu de warps.
+    flyspeed:
+        description: Altera a velocidade de voo.
+    tpall:
+        description: Teleporta todos os jogadores pra voce.
+    minereset:
+        description: Reseta a mina selecionada.
+    sendtitle:
+        description: Envia um titulo a todos os jogadores.
+    setitem:
+        description: Modifica o item na mão do jogador.
+    
